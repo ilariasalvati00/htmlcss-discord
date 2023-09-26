@@ -6,6 +6,10 @@
     font-weight: 500;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     background-color: #255EE9;
     display: flex;
@@ -91,6 +95,7 @@ header{
 .button-x-small{
     width: 100px;
     height: 30px;
+    font-size: 10pt;
 }
 
 .black{
@@ -126,6 +131,7 @@ header{
 
 .blue img{
    height: 100%;
+   width: 100%;
 }
 
 .pink{
@@ -145,28 +151,51 @@ p{
 
 .section3{
     background-color:#d3d3d3;
-    height: 300px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-image: url(img/wave.svg);
 }
 
 .section4{
-    background-color: #d3d3d3;
+    background-color: white;
     height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.section5{
+    background-color: #d3d3d3;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h3{
+   font-weight: 700;
+}
+
+.stars{
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .green{
-    background-color:#228b22;
-    height: 550px;
+    height: 700px;
     width: 60%;
-    border:1px dashed black;
 } 
 
-.section5{
+.section6{
     background-color: #23272a;
     height: 300px;
     display: flex;
@@ -174,6 +203,12 @@ p{
     align-items: stretch;
     padding-top:5px;
     padding-bottom: 20px;
+}
+
+.lillac{
+    background-color: #8EA1E1;
+    color: white;
+    margin: 30px auto;
 }
 
 .red{
