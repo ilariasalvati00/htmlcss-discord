@@ -29,30 +29,81 @@ header{
 
 .link{
     width:40%;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .link a{
-    margin-right: 10px;
     text-decoration: none;
     color: white;
 }
 
 .section1{
     background-image: url(img/jumbo.png);
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .violet{
-    background-color: #ee82ef;
     height: 150px;
-    width: 50%;
-    border:1px dashed black;
+    width: 45%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 12pt;
+    line-height: 25px;
+}
+
+.violet h2{
+    margin-bottom: 30px;
+    font-size: 24pt;
+}
+
+.button{
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-small{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.button-large{
+    width: 250px;
+}
+
+.x-small{
+    width: 100px;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.down-logo img{
+    width: 5%;
+    margin-right: 15px;
+}
+
+
+.space-around{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .section2{
