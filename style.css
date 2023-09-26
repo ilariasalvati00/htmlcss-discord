@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: #add9e6;
+    background-color: #3161e0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,9 +13,8 @@ header{
 }
 
 .logo, .link, .login{
-    background-color: #dba51f;
+    background-color:#3161e0;
     display:flex;
-    border:1px dashed black;
 }
 
 .logo{
@@ -36,12 +35,14 @@ header{
 .link a{
     margin-right: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .section1{
-    background-color:#01008c;
-    height: 200px;
+    background-image: url(img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
