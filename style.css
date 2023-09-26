@@ -2,10 +2,12 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
 }
 
 header{
-    background-color: #3161e0;
+    background-color: #255EE9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +15,7 @@ header{
 }
 
 .logo, .link, .login{
-    background-color:#3161e0;
+    background-color:#255EE9;
     display:flex;
 }
 
@@ -39,9 +41,9 @@ header{
 
 .section1{
     background-image: url(img/jumbo.png);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 450px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +53,7 @@ header{
     height: 150px;
     width: 45%;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 12pt;
     line-height: 25px;
@@ -59,7 +61,8 @@ header{
 
 .violet h2{
     margin-bottom: 30px;
-    font-size: 24pt;
+    font-size: 30pt;
+    font-weight: 700;
 }
 
 .button{
@@ -85,8 +88,9 @@ header{
     width: 250px;
 }
 
-.x-small{
+.button-x-small{
     width: 100px;
+    height: 30px;
 }
 
 .black{
@@ -108,7 +112,7 @@ header{
 
 .section2{
     background-color: white;
-    height: 300px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,17 +120,27 @@ header{
 }
 
 .blue{
-    background-color: #1e90ff;
-    height: 200px;
-    width: 40%;
-    border:1px dashed black;
+    height: 400px;
+    width: 50%;
+}
+
+.blue img{
+   height: 100%;
 }
 
 .pink{
-    background-color: #ffc0cb;
-    height: 200px;
-    width: 20%;
-    border:1px dashed black;
+    height: 350px;
+    width: 17%;
+}
+
+h2{
+    font-size: 24pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 11pt;
 }
 
 .section3{
